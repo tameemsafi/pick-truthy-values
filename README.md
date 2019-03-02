@@ -5,7 +5,7 @@ Utility function which removes any falsy values from arrays/objects written in t
 ## Examples
 
 ```js
-import pickTruthyValues from 'pick-truthy-values'
+import { pickTruthyValues } from 'pick-truthy-values'
 
 pickTruthyValues({
   a: null,
