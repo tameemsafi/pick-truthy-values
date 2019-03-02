@@ -1,5 +1,7 @@
 # pickTruthyValues
 
+[![CircleCI](https://circleci.com/gh/tameemsafi/pick-truthy-values/tree/master.svg?style=svg)](https://circleci.com/gh/tameemsafi/pick-truthy-values/tree/master)
+
 Utility function which removes any falsy values from arrays/objects written in typescript.
 
 ## Examples
