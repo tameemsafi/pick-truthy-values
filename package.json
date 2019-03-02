@@ -5,6 +5,16 @@
   "types": "dist/index.d.ts",
   "license": "MIT",
   "homepage": "https://github.com/tameemsafi/pick-truthy-values",
+  "keywords": [
+    "utility",
+    "remove empty values",
+    "pick",
+    "clean object",
+    "clean array",
+    "filter object",
+    "remove null values",
+    "remove falsy values"
+  ],
   "files": [
     "dist/**/*"
   ],
