@@ -24,7 +24,7 @@ pickTruthyValues({
   }
 })
 
-// =>
+// => {}
 
 pickTruthyValues({
   a: {
