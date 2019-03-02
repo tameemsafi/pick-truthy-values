@@ -30,9 +30,5 @@ describe('isEmpty', () => {
   it('should return `false` when non-empty object is passed', () => {
     expect(isEmpty({ a: 1 })).toEqual(false);
   })
-
-  it('should return `true` when non-object is passed', () => {
-    expect(isEmpty(Error)).toEqual(true);
-  })
   
 })
