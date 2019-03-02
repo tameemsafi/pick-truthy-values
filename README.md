@@ -39,4 +39,8 @@ pickTruthyValues({
 
 // => { a: { b: [ { d: 'test' } ] } } 
 
+pickTruthyValues([ 1, 2, 3, null, 4, 5, undefined, 6, false ])
+
+// => [ 1, 2, 3, 4, 5, 6, false ]
+
 ```

@@ -143,6 +143,11 @@ describe('pickTruthyValues', () => {
     expect(pickTruthyValues(arrayToTest)).toEqual([]);
   })
 
+  it('should return correct array when array with falsy values has been passed', () => {
+    const arrayToTest = [ 1, 2, null, 3, undefined, 4, false  ];
+    expect(pickTruthyValues(arrayToTest)).toEqual([1, 2, 3, 4, false ]);
+  })
+
   it('should return empty object when object.prototype is passed', () => {
     expect(pickTruthyValues(Object.prototype)).toEqual({});
   })
