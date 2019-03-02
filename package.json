@@ -1,0 +1,23 @@
+{
+  "name": "pick-truthy-values",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Tameem Safi",
+    "email": "tameem@safi.me.uk"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "@types/node": "^11.10.0",
+    "jest": "^24.1.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  }
+}
